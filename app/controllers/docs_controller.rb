@@ -1,22 +1,22 @@
 class DocsController < ApplicationController
-def show
-#...
-end
-def edit
-#...
-end
-def upfdate 
-#...
-end
-def destroy
-#...
-end
+	def show
+		#...
+	end
+	def edit
+		#...
+	end
+	def update 
+		#...
+	end
+	def destroy
+		#...
+	end
 
-private
+	private
 
-def find_doc
-end 
+	def find_doc
+	end 
 
-def doc_params
-end
+	def doc_params
+	end
 end	
